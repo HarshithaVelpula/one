@@ -85,7 +85,5 @@
     </div>
 
     <script src="scripts.js"></script> <!-- Bug: Wrong script file name (should be script.js) -->
-<h1>HEY I AM HARSHITHA</h1>
-<strike>just i have finished the deployment using the jenkins</strike>
-</body>
+
 </html>
