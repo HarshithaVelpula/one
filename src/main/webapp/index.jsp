@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width"> <!-- Bug: Missing initial-scale=1.0 -->
     <title>ShopEasy - Your One-Stop Online Store</title>
-    <link rel="stylesheet" href="style.css"> <!-- Bug: Incorrect file name (should be styles.css) -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/font-awesome.min.css"> <!-- Bug: Wrong file name for Font Awesome -->
+    <link rel="stylesheet" href="styles.css"> <!-- Bug: Incorrect file name (should be styles.css) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-Awesome/6.0.0-beta3/css/font-Awesome.min.css"> <!-- Bug: Wrong file name for Font Awesome -->
 </head>
 <body>
     <header>
@@ -25,7 +25,7 @@
     <main>
         <section id="mobiles" class="product-section">
             <h2>Smartphones</h2>
-            <div class="product-grid" id="mobile-product"> <!-- Bug: ID should be 'mobile-products' -->
+            <div class="product-grid" id="mobile-products"> <!-- Bug: ID should be 'mobile-products' -->
                 <!-- Mobile products will be inserted here by JavaScript -->
             </div>
         </section>
@@ -54,8 +54,8 @@
             <div class="footer-section">
                 <h3>Quick Links</h3>
                 <ul>
-                    <li><a href="#mobile">Mobiles</a></li> <!-- Bug: Incorrect anchor ID (should be #mobiles) -->
-                    <li><a href="#laptps">Laptops</a></li> <!-- Bug: Typo in href (#laptps instead of #laptops) -->
+                    <li><a href="#mobiles">Mobiles</a></li> <!-- Bug: Incorrect anchor ID (should be #mobiles) -->
+                    <li><a href="#laptops">Laptops</a></li> <!-- Bug: Typo in href (#laptps instead of #laptops) -->
                     <li><a href="#clothes">Clothes</a></li>
                 </ul>
             </div>
@@ -79,10 +79,10 @@
             </div>
             <div id="cart-total">
                 <p>Total: ₹<span id="total-amt">0</span></p> <!-- Bug: ID mismatch (should be total-amount) -->
-                <button id="checkout-button">Proceed to Checkout</button> <!-- Bug: ID mismatch (should be checkout-btn) -->
+                <button id="checkout-btn">Proceed to Checkout</button> <!-- Bug: ID mismatch (should be checkout-btn) -->
             </div>
         </div>
     </div>
 
-    <script src="scripts.js"></script> <!-- Bug: Wrong script file name (should be script.js) -->
+    <script src="script.js"></script> <!-- Bug: Wrong script file name (should be script.js) -->
 </html>
