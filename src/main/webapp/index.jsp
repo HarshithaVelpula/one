@@ -23,7 +23,7 @@
     </header>
 
     <main>
-<h1 style="color:voilet;" align:"center"> THIS IS FIRST UPDATE IN THE APPLICATION </h1>
+<h1 style="color:pink;" align:"center"> THIS IS FIRST UPDATE IN THE APPLICATION </h1>
         <section id="mobiles" class="product-section">
             <h2>Smartphones</h2>
             <div class="product-grid" id="mobile-products"> <!-- Bug: ID should be 'mobile-products' -->
